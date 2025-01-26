@@ -1,0 +1,18 @@
+{
+  "project": {
+    "name": "calories-estimator",
+    "version": "0.1.0",
+    "description": "Estimate calories from meal image",
+    "readme": "README.md",
+    "requires-python": ">=3.10",
+    "dependencies": {
+      "python-telegram-bot": "20.1",
+      "Pillow": "9.0.1",
+      "google-generativeai": "0.4.0",
+      "python-dotenv": "1.0.0"
+    },
+    "dev-dependencies": {
+      "ruff": ">=0.7.0"
+    }
+  }
+}
