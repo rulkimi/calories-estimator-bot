@@ -3,7 +3,6 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from PIL import Image
 from io import BytesIO
 import google.generativeai as genai
-import json
 import os
 from dotenv import load_dotenv
 
